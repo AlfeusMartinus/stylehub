@@ -31,7 +31,7 @@ NEXT_PUBLIC_MAIN_URL=http://localhost:3000/
 
 1. Clone the repo
 ```sh
-git clone https://github.com/joonacode/psychoart_landing_page.git
+git clone https://github.com/AlfeusMartinus/stylehub.git
 ```
 2. Install NPM packages
 ```sh
