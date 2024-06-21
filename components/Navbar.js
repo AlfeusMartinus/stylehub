@@ -62,20 +62,20 @@ const Navbar = () => {
 const ContentSidebar = ({ toggleMenu }) => {
   return (
     <div className='items-center flex-col sm:flex-row flex'>
-      <div className='block sm:hidden lg:block'>
+      {/* <div className='block sm:hidden lg:block'>
         <Input />
-      </div>
+      </div> */}
       <Link href='/#collections'>
         <a
           onClick={toggleMenu}
           className='mb-3 sm:mb-0 mt-4 sm:mt-0 ml-0 sm:ml-7'
         >
-          Collections
+          Koleksi
         </a>
       </Link>
       <Link href='/#feature'>
         <a onClick={toggleMenu} className='mb-3 sm:mb-0 ml-0 sm:ml-7'>
-          Feature
+          Terlaris 
         </a>
       </Link>
       <Link href='/#faq'>
@@ -86,7 +86,7 @@ const ContentSidebar = ({ toggleMenu }) => {
           FAQ
         </a>
       </Link>
-      <Button variant={'primary'}>Select Wallet</Button>
+      <Button variant={'primary'} isLink={true} href={'/#collections'}>🛒Belanja Sekarang</Button>
     </div>
   );
 };

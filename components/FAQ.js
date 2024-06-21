@@ -25,7 +25,7 @@ const FAQ = () => {
           Freaquently Asked Question
         </h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
-          <p className='opacity-50'>Wanna Ask Something?</p>
+          <p className='opacity-50'>Mau bertanya sesuatu?</p>
         </Reveal>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>

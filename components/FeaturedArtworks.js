@@ -8,10 +8,10 @@ const FeaturedArtworks = () => {
   return (
     <Container className={'mb-44 scroll-mt-10'} id='feature'>
       <div className='text-center mb-8'>
-        <h2 className='font-bold text-3xl mb-2'>Featured Artworks</h2>
+        <h2 className='font-bold text-3xl mb-2'>Top Terlaris🌟</h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
           <p className='opacity-50 w-full sm:w-[400px] mx-auto'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Tampilkan koleksi produk terlaris bulan <b>Juli</b> di sini.
           </p>
         </Reveal>
       </div>

@@ -10,13 +10,13 @@ const Hero = () => {
       <div className='w-full sm:w-[50%] pr-0 sm:pr-10 lg:pr-20 mt-[-20px] sm:mt-5 lg:mt-10'>
         <Reveal keyframes={fadeInLeft} duration={800} delay={200}>
           <h1 className='text-3xl lg:text-6xl font-bold mb-5'>
-            Create, Sell & Collect Your Own Creative NFT
+            Temukan Produk & Gaya Impian Bersama StyleHub✨
           </h1>
         </Reveal>
         <Reveal keyframes={fadeInDownShorter} duration={1000} delay={800}>
           <p className='mb-8 opacity-50'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit.
+          Belanja Sekarang, <b>Dapatkan Diskon!🎁</b> <br></br>
+          Jangan lewatkan diskon eksklusif ini, klik link dibawah untuk berbelanja sekarang!⏬
           </p>
         </Reveal>
 
@@ -24,36 +24,36 @@ const Hero = () => {
           <Reveal keyframes={fadeInUp} duration={1000} delay={200}>
             <Button
               isLink
-              href={'/#about'}
+              href={'/#collections'}
               className={'mr-3'}
               variant={'primary'}
             >
-              Explore Now
+              🛒Belanja Sekarang
             </Button>
           </Reveal>
-          <Reveal keyframes={fadeInUp} duration={1000} delay={400}>
-            <Button isLink href={'/#collections'}>
-              Sell NFT
+          {/* <Reveal keyframes={fadeInUp} duration={1000} delay={400}>
+            <Button isLink href={'/#about'}>
+              Tentang
             </Button>
-          </Reveal>
+          </Reveal> */}
         </div>
         <div className='grid grid-cols-3 gap-3'>
           <Reveal keyframes={fadeInLeft} duration={500} delay={200}>
             <div>
-              <p className='font-bold text-2xl mb-1'>37k+</p>
-              <p className='opacity-50 '>Artworks</p>
+              <p className='font-bold text-2xl mb-1'>500++</p>
+              <p className='opacity-50 '>Produk Trendi</p>
             </div>
           </Reveal>
           <Reveal keyframes={fadeInLeft} duration={500} delay={400}>
             <div>
-              <p className='font-bold text-2xl mb-1'>20k+</p>
-              <p className='opacity-50 '>Artists</p>
+              <p className='font-bold text-2xl mb-1'>300+</p>
+              <p className='opacity-50 '>Merek Ternama</p>
             </div>
           </Reveal>
           <Reveal keyframes={fadeInLeft} duration={500} delay={600}>
             <div>
-              <p className='font-bold text-2xl mb-1'>99k+</p>
-              <p className='opacity-50 '>Auctions</p>
+              <p className='font-bold text-2xl mb-1'>1k+</p>
+              <p className='opacity-50 '>Pelanggan Puas</p>
             </div>
           </Reveal>
         </div>
@@ -65,7 +65,7 @@ const Hero = () => {
               layout='fill'
               objectFit='contain'
               objectPosition={'center'}
-              src='/hero/heroimage.png'
+              src='/hero/heroimage2.png'
               alt='hero'
             />
           </div>

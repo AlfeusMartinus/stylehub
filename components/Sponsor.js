@@ -5,14 +5,14 @@ import { fadeInUp } from '@/keyframes';
 import Image from 'next/image';
 const Sponsor = () => {
   return (
-    <Container className={'grid grid-cols-3 gap-5 mb-32 items-center'}>
+    <Container className={'grid grid-cols-2 gap-5 mb-32 items-center'}>
       <Reveal keyframes={fadeInUp} duration={800} delay={200}>
         <div className='flex items-center justify-center relative w-full h-[60px]'>
           <Image
             layout='fill'
             objectFit='contain'
             objectPosition={'center'}
-            src='/sponsor/binance.svg'
+            src='/sponsor/shopee.svg'
             alt='binance'
           />
         </div>
@@ -23,19 +23,8 @@ const Sponsor = () => {
             layout='fill'
             objectFit='contain'
             objectPosition={'center'}
-            src='/sponsor/ethereum.svg'
+            src='/sponsor/stylehub.svg'
             alt='ethereum'
-          />
-        </div>
-      </Reveal>
-      <Reveal keyframes={fadeInUp} duration={800} delay={600}>
-        <div className='flex items-center justify-center relative w-full h-[60px]'>
-          <Image
-            layout='fill'
-            objectFit='contain'
-            objectPosition={'center'}
-            src='/sponsor/blockchainio.svg'
-            alt='blockchainio'
           />
         </div>
       </Reveal>

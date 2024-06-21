@@ -14,8 +14,7 @@ const Footer = () => {
         <div className='w-[300px] mb-10 lg:mb-0 mr-10 lg:mr-28'>
           <Logo />
           <p className='mt-5'>
-            The best NFT marketplace website in the world and feel your
-            experience in selling or buy our work
+            Jelajahi koleksi terbaik & trendi saat ini di StyleHub
           </p>
         </div>
         <div className='flex-1 grid grid-cols-2 md:grid-cols-3 gap-4'>
@@ -57,10 +56,10 @@ const Footer = () => {
             <p className='font-bold text-xl mb-5'>Contact</p>
             <div className='flex flex-col'>
               <Link href='/'>
-                <a className='mb-4 opacity-50'>+012 3456789</a>
+                <a className='mb-4 opacity-50'>+62 8990173499</a>
               </Link>
               <Link href='/'>
-                <a className='mb-5 opacity-50'>adorableprogrammer@gmail.com</a>
+                <a className='mb-5 opacity-50'>team@stylehubid.shop</a>
               </Link>
               <div className='flex items-center'>
                 <div className='mr-10 cursor-pointer'>
@@ -93,14 +92,14 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center items-center mb-8'>
-        &copy; <span className='font-bold mr-1'>Joonacode </span>
-        Desain By <span className='font-bold ml-1'>Zarror</span>
+        &copy; <span className='font-bold mr-1'>StyleHub </span>
+        Desain By <span className='font-bold ml-1'>Team Stylehub</span>
       </div>
       <div
         onClick={scrollToTop}
         className='animate-bounce  h-14 w-14 cursor-pointer shadow-lg shadow-[#671AE4]/40 rounded-full bg-gradient-to-b font-bold from-[#B75CFF] to-[#671AE4] mx-auto flex justify-center items-center'
       >
-        UP
+        ⬆️
       </div>
     </Container>
   );

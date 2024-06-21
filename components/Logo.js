@@ -3,8 +3,8 @@ import React from 'react';
 const Logo = () => {
   return (
     <div className='font-bold flex text-2xl'>
-      <p>Psycho</p>
-      <p className='text-[#B75CFF]'>Art</p>
+      <p>Style</p>
+      <p className='text-[#B75CFF]'>Hub</p>
     </div>
   );
 };

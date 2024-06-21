@@ -6,17 +6,17 @@ import { fadeInDownShorter, fadeInDownShorter2, fadeInLeft } from '@/keyframes';
 const Collections = () => {
   const [listBtn, setListBtn] = useState([
     {
-      name: 'Art',
+      name: 'Fashion',
       status: true,
       delay: 100,
     },
     {
-      name: 'Sport',
+      name: 'Kitchen',
       status: false,
       delay: 400,
     },
     {
-      name: 'Photography',
+      name: 'Parfum',
       status: false,
       delay: 700,
     },
@@ -27,7 +27,7 @@ const Collections = () => {
     },
   ]);
 
-  const [filteredCollection, setFilteredCollection] = useState(list_collection.filter(item => item.category === 'Art'));
+  const [filteredCollection, setFilteredCollection] = useState(list_collection.filter(item => item.category === 'Fashion'));
 
 
   const handleClickMenu = (name) => {
@@ -45,10 +45,10 @@ const Collections = () => {
   return (
     <Container id='collections' className={'mb-44 scroll-mt-10'}>
       <div className='text-center mb-8'>
-        <h2 className='font-bold text-3xl mb-2'>Colleaction</h2>
+        <h2 className='font-bold text-3xl mb-2'>Koleksi Produk</h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
           <p className='opacity-50 w-full sm:w-[400px] mx-auto'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Jangan lewatkan untuk penawaran terbaik minggu ini!.
           </p>
         </Reveal>
       </div>

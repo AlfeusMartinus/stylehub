@@ -7,7 +7,7 @@ const TopCreator = () => {
   return (
     <Container className={'mb-44'}>
       <div className='text-center mb-8'>
-        <h2 className='font-bold text-3xl mb-2'>Top Creator</h2>
+        <h2 className='font-bold text-3xl mb-2'>Pengembang</h2>
         <Reveal keyframes={fadeInDownShorter2} duration={800} delay={100}>
           <p className='opacity-50 w-full sm:w-[400px] mx-auto'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
