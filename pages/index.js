@@ -32,10 +32,10 @@ const Home = () => {
           }
         >
           <h2 className='font-bold text-2xl sm:text-4xl lg:text-5xl mb-5 w-full md:w-2/5 leading-snug text-center'>
-            Get ready to collect our NFT
+            Siapkan Diri & Mulai Belanja
           </h2>
           <Reveal delay={200} duration={1000} keyframes={fadeInDownShorter}>
-            <Button>Get Started</Button>
+            <Button isLink={true} href={'/#collections'}>Pilih Produk🛒</Button>
           </Reveal>
         </div>
       </Container>

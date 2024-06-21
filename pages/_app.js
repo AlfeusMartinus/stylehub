@@ -5,17 +5,17 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>PsychoArt - NFT Marketplace</title>
-        <meta name='title' content='PsychoArt - NFT Marketplace' />
-        <meta name='description' content='Buy & sale nft online' />
-        <meta name='keywords' content='nft, marketplace' />
+        <title>StyleHub - Product Marketplace</title>
+        <meta name='title' content='StyleHub - Product Marketplace' />
+        <meta name='description' content='StyleHub - Product Marketplace' />
+        <meta name='keywords' content='shopee, product, afiliate' />
         <meta name='robots' content='index, follow' />
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content={process.env.NEXT_PUBLIC_MAIN_URL} />
-        <meta property='og:title' content='PsychoArt - NFT Marketplace' />
-        <meta property='og:description' content='Buy & sale nft online' />
+        <meta property='og:title' content='StyleHub - Product Marketplace' />
+        <meta property='og:description' content='StyleHub - Product Marketplace' />
         <meta
           property='og:image'
           content={process.env.NEXT_PUBLIC_MAIN_URL + 'logo.png'}
@@ -31,8 +31,8 @@ function MyApp({ Component, pageProps }) {
           property='twitter:url'
           content={process.env.NEXT_PUBLIC_MAIN_URL}
         />
-        <meta property='twitter:title' content='PsychoArt - NFT Marketplace' />
-        <meta property='twitter:description' content='Buy & sale nft online' />
+        <meta property='twitter:title' content='StyleHub - Product Marketplace' />
+        <meta property='twitter:description' content='StyleHub - Product Marketplace' />
         <meta
           property='twitter:image'
           content={process.env.NEXT_PUBLIC_MAIN_URL + 'logo.png'}
